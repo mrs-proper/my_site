@@ -1,0 +1,37 @@
+
+header, footer, article{
+    display: block;
+}
+
+header{
+    background: #FFAB61;
+}
+
+h1, h2{
+    text-align: center;
+    color: #000;
+}
+article{
+    float: right;
+    background-color: #FFE061;
+    margin: 5% 20%;
+    flex: 1 0 auto;
+}
+footer{
+    clear: both;
+    background-color: #FFAB61;
+}
+
+html, body {
+    height: 100%;
+   }
+body {
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1 0 auto;
+}
+footer {
+    flex-shrink: 0;
+}
