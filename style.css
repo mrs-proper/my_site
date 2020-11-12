@@ -24,7 +24,6 @@ article {
 }
 
 footer {
-    display: flex;
     text-align: justify;						 
 	text-align-last: justify;
     padding: 2%;
@@ -34,11 +33,8 @@ footer {
 }
 
 body {
-    margin: 0;
-
     background-image: linear-gradient(0deg, rgba(255,0,0,0.15) 0%, rgba(0,0,0,0) 100%), url("bckg.png");
     background-attachment: fixed;
-
     display: flex;
     flex-direction: column;
     height: 100%;
